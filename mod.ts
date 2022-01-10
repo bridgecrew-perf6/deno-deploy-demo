@@ -5,4 +5,4 @@ const server = await serve(projectMeta, Deno.cwd(), false);
 
 console.log('Head to localhost:3000');
 
-await server();
+server();
