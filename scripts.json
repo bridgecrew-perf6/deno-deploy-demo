@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "install:gustwind": "deno install -A --unstable --no-check -f https://deno.land/x/gustwind@v0.13.7/cli.ts",
+    "start": "deno run -A --unstable --no-check ./mod.ts"
+  }
+}

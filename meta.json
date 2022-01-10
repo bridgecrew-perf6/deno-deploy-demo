@@ -1,0 +1,22 @@
+{
+  "port": 3000,
+  "amountOfBuildThreads": 1,
+  "meta": {
+    "language": "en",
+    "siteName": "Deno Deploy demo"
+  },
+  "paths": {
+    "assets": "./assets",
+    "components": "./components",
+    "dataSources": "./dataSources",
+    "layouts": "./layouts",
+    "output": "./build",
+    "routes": "./routes.json",
+    "transforms": "./transforms",
+    "twindSetup": "./twindSetup.ts"
+  },
+  "features": {
+    "extractCSS": false,
+    "showEditorAlways": false
+  }
+}
